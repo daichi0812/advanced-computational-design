@@ -1,0 +1,33 @@
+{
+  "boundary_lock": true,
+  "handles": [
+    {
+      "name": "center_lift",
+      "index": 364,
+      "target": [
+        -0.002498373964724742,
+        -0.010519483153408688,
+        0.4116160905024131
+      ]
+    },
+    {
+      "name": "left_lift",
+      "index": 495,
+      "target": [
+        -0.3026769171450074,
+        0.3799105245714594,
+        0.2180935748646429
+      ]
+    },
+    {
+      "name": "right_push",
+      "index": 261,
+      "target": [
+        0.3785281287679696,
+        -0.31027745142212626,
+        -0.1386314595214334
+      ]
+    }
+  ],
+  "notes": "Boundary vertices should be fixed to the original mesh; handles have explicit target positions."
+}

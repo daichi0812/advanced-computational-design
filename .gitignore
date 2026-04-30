@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.Python
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Assignment outputs ---
+# Keep the outputs/ directory itself (with .gitkeep) but ignore generated artifacts.
+# Comment these out if you want to commit specific result files for submission.
+**/outputs/*.obj
+**/outputs/*.png
+**/outputs/*.jpg
+**/outputs/*.jpeg
+**/outputs/*.pdf
+**/outputs/*.gif
+**/outputs/*.mp4
+
+# --- Misc ---
+*.log
+.env
+.env.local
