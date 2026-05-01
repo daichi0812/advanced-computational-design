@@ -62,8 +62,9 @@ def uniform_laplacian(n_vertices: int, F: np.ndarray) -> sp.csr_matrix:
     # TODO: build a dictionary mapping each unique edge (i,j) to weight 1.0.
     # Hint: use unique_edges(F) and _assemble_laplacian(...).
     edges = unique_edges(F)
-    edge_weights = dict()
-    edge_weights[(edges)] = 1.0
+    edge_weights = {}
+    for i, j in edges:
+        edge_weights[(i, j)] = 1.0
     return _assemble_laplacian(n_vertices, edge_weights)
 
 def _cotangent(u: np.ndarray, v: np.ndarray, eps: float = 1e-12) -> float:
